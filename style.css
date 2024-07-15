@@ -1,0 +1,83 @@
+*{
+   padding:0;
+   margin:0 
+}
+body{
+    padding: 10px;
+    margin:10px 8px;
+    background-color:yellow;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00008B;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    padding: 12px;
+    margin: 3px 8px;
+}
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figuras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    flex-direction: column;
+    filter: brightness(120%);
+    filter:drop-shadow(10px 5px 2px #6959CD)
+}
+figcaption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6959CD;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-weight:bold;
+}
+.footer span{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   margin:4px 6px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+}
